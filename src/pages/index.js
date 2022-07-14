@@ -37,6 +37,14 @@ export default function Home() {
         text3={"Je m’inscris  "}
         src='/pages'
       />
+      <CardCTA
+        text1={"Ne manquez plus nos nouveaux biens !"}
+        text2={
+          "Quand vous trouvez enfin la perle rare, on vous annonce qu’elle est déjà sous compromis... En vous inscrivant cela ne vous arrivera plus !"
+        }
+        text3={"Je m’inscris  "}
+        src='/pages'
+      />
     </div>
   );
 }
