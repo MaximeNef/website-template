@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className=''>
+      <motion.div animate={{ scale: 2 }} transition={{ duration: 0.5 }}>
+        vtrghh
+      </motion.div>
       <h1 className='text-3xl font-bold underline'>Hello world!</h1>
     </div>
   );
